@@ -1,6 +1,4 @@
-#Save your xml file to txt
-
-filename = "sitemap1.txt"
+filename = "sitemap.xml"
 
 with open(filename, "r", encoding="utf-8") as sitemap:
     for url in sitemap.readlines():
